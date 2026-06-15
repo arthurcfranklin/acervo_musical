@@ -1,50 +1,90 @@
-## 🎶 Acervo Musical - Banco de Dados SQL ## 
+# 🗄️ Acervo Musical | Banco de Dados Relacional em MySQL
 
-Este projeto consiste na criação de um banco de dados relacional para auxiliar um DJ na organização e catalogação do seu acervo musical. O objetivo é fornecer um sistema eficiente para armazenar e gerenciar informações sobre cantores, bandas, músicas e suas versões remixadas. 
+Projeto acadêmico desenvolvido para aplicação prática de conceitos de modelagem de banco de dados relacional utilizando MySQL.
 
-## 🚀 Funcionalidades ##
+O projeto tem como objetivo estruturar e organizar informações sobre artistas, bandas, músicas e interpretações, servindo como exercício de modelagem conceitual, modelagem lógica e implementação de banco de dados.
 
-✔️ Cadastro de cantores/bandas presentes no acervo.   
+---
 
-✔️ Registro de músicas, incluindo diferentes versões remixadas.   
+## 📚 Contexto
 
-✔️ Controle de regravações feitas por diferentes artistas.   
+Este projeto foi desenvolvido durante os estudos de Banco de Dados, com foco na aplicação prática de conceitos fundamentais de modelagem e persistência de dados.
 
-✔️ Associação entre cantores e músicas de forma flexível.   
+---
 
-✔️ Registro do ano de lançamento de cada música.   
+## 🎯 Objetivo
 
-✔️ Evita cadastros duplicados, garantindo uma estrutura organizada.   
+Criar um banco de dados relacional capaz de armazenar e organizar informações sobre um acervo musical, aplicando conceitos de:
 
+* Modelagem Conceitual
+* Modelagem Lógica
+* Relacionamentos entre entidades
+* Integridade Referencial
+* Consultas SQL
 
-## 🛠 Tecnologias Utilizadas ##
+---
 
-Banco de Dados: **MySQL**  
+## ✨ Funcionalidades
 
-Linguagem SQL: **Scripts para criação e manipulação de tabelas**  
+* Cadastro de cantores e bandas
+* Registro de músicas e versões interpretadas
+* Controle de regravações realizadas por diferentes artistas
+* Associação entre intérpretes e músicas
+* Registro de informações complementares das obras musicais
+* Estrutura relacional organizada e normalizada
 
-Modelagem: **Modelos Conceitual e Lógico**  
+---
 
-## 📂 Estrutura do Repositório ##
+## 🖥️ Tecnologias Utilizadas
 
-📄 **README.md** - Explicação do projeto e instruções de uso  
+**Banco de Dados:** MySQL
 
-📄 **script** - Script das consultas pedidas
+**Linguagem:** SQL
 
-📂 **database** - Tabelas do banco de dados em script SQL  
+**Modelagem:** Modelo Conceitual e Modelo Lógico
 
-&nbsp;&nbsp;&nbsp;├── acervo_musicas_cantor.sql - Tabela de cantores/bandas
+---
 
-&nbsp;&nbsp;&nbsp;├── acervo_musicas_interpretacao.sql - Relação entre músicas e intérpretes
+## 📂 Estrutura do Projeto
 
-&nbsp;&nbsp;&nbsp;├── acervo_musicas_musica.sql - Tabela de músicas e suas versões
+```text
+acervo_musical/
+├── README.md
+├── script.sql
+└── database/
+    ├── acervo_musicas_cantor.sql
+    ├── acervo_musicas_interpretacao.sql
+    └── acervo_musicas_musica.sql
+```
 
-## 📌 Como Executar o Projeto ##
+### Arquivos
 
-1️⃣ **Instale o MySQL** em seu ambiente.  
+* **README.md** — Documentação do projeto
+* **script.sql** — Consultas e operações SQL
+* **database/** — Scripts de criação das tabelas e relacionamentos
 
-2️⃣ **Execute os scripts SQL** na ordem correta para criar o banco.  
+---
 
-3️⃣ **Cadastre músicas e intérpretes** conforme o modelo.  
+## 🚀 Como Executar
 
-4️⃣ **Utilize as consultas** para obter informações organizadas.  
+1. Instale o MySQL em seu ambiente.
+2. Execute os scripts SQL presentes na pasta `database`.
+3. Crie a estrutura do banco de dados.
+4. Execute as consultas SQL conforme necessário.
+
+---
+
+## 📖 Conceitos Aplicados
+
+* Banco de Dados Relacional
+* Chaves Primárias e Estrangeiras
+* Relacionamentos 1:N e N:N
+* Integridade Referencial
+* Modelagem de Dados
+* SQL para definição e manipulação de dados
+
+---
+
+## 📄 Sobre o Projeto
+
+Projeto acadêmico voltado ao aprendizado de modelagem e implementação de bancos de dados relacionais, servindo como base para estudos de SQL, estruturação de dados e persistência de informações.
